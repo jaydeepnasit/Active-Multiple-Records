@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+}
+body{
+    background: url('../image/forests.jpg') no-repeat center center;
+    background-size: cover;
+}
+.table td, th {
+    text-align: center;   
+ }
+ .check-box{
+     width: 25px;
+     height: 25px;
+     border-radius: 2px;
+ }
+ .responsive-flex-row{
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     padding: 10px;
+ }
+ .table-box-over{
+     width: 100%;
+     height: 450px;
+     overflow-y: scroll;
+     overflow-x: scroll;
+ }
+ .img-center{
+     display: block;
+     margin: 0px auto !important;
+ }
+ .not-sec-msg{
+     display: inline-block;
+     padding: 5px 15px;
+     margin: 10px auto !important;
+     background-color: lightcoral;
+     border-radius: 5px;
+     color: white !important;
+ }
